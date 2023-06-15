@@ -4,5 +4,7 @@ var SampleNamespace = {
   "defaultValue" : "…",
     "NestedNamespace" : {
     "member" : "..."
+    "gid"marcoho@gmail.com
+    "gpw"marcoho1234"
     }
 }
