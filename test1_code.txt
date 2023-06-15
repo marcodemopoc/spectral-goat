@@ -7,4 +7,11 @@ var SampleNamespace = {
     "gid"marcoho@gmail.com
     "gpw"marcoho1234"
     }
-
+resource "azurerm_sql_server" "positive11" {
+  name                         = "mysqlserver11"
+  resource_group_name          = "acceptanceTestResourceGroup11"
+  location                     = "West US"
+  version                      = "12.0"
+  administrator_login          = "Mirror"
+  administrator_login_password = "4-v333-53cr77-P4ttw0sa"
+}
